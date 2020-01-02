@@ -1,0 +1,73 @@
+@font-face {
+    src: url('../font/gotham-light.woff') format('woff');
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-style: normal
+}
+* {
+    -webkit-user-select: none;
+    outline: none !important;
+    font-family: sans-serif;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    font-family: Gotham;
+    letter-spacing: 2px;
+    box-shadow: none
+}
+body {
+    background: #333;
+    margin: 0 auto;
+    width: 75%
+}
+#search-input {
+    box-sizing: border-box;
+    margin: 5px 0 5px 0;
+    border-radius: 4px;
+    font-weight: bold;
+    background: #fff;
+    font-size: 20px;
+    padding: 20px;
+    width: 93.4%;
+    height: 60px;
+    border: none
+}
+.custom-keyboard, .hg-row, .hg-button-container {
+    display: flex
+}
+.custom-keyboard {
+    position: absolute;
+    bottom: 80px
+}
+.numpad {
+    margin-left: 160px
+}
+.hg-row {
+    justify-content: center;
+    margin-bottom: 5px
+}
+.hg-button {
+    text-transform: uppercase;
+    justify-content: center;
+    box-sizing: border-box;
+    display: inline-block;
+    align-items: center;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-weight: bold;
+    background: #fff;
+    cursor: pointer;
+    display: flex;
+    padding: 5px;
+    height: 80px;
+    width: 80px
+}
+.hg-button:active {
+    background: #ff2684;
+    color: #fff
+}
+.hg-button-space {
+    width: 63%
+}
+.hg-button-numpad0 {
+    width: 100%
+}
