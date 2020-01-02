@@ -12,6 +12,21 @@ body {
     margin: 0 auto;
     width: 75%
 }
+.searchbar div {
+    border-radius: 4px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    background: #fff;
+    cursor: pointer;
+    margin: 10px;
+    height: 40px;
+    width: 40px
+}
+.searchbar div:active {
+    background: #ff2684;
+    color: #fff
+}
 #search-input {
     box-sizing: border-box;
     margin: 5px 0 5px 0;
@@ -20,11 +35,11 @@ body {
     background: #fff;
     font-size: 20px;
     padding: 20px;
-    width: 93.4%;
     height: 60px;
-    border: none
+    border: none;
+    width: 93.3%;
 }
-.custom-keyboard, .hg-row, .hg-button-container {
+.searchbar, .custom-keyboard, .hg-row, .hg-button-container {
     display: flex
 }
 .custom-keyboard {
