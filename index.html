@@ -8,7 +8,10 @@
     </head>
     <body>
         <form>
-            <input id="search-input" type="text" placeholder="Hledat obchod nebo restauraci..." tabindex="0" autofocus>
+            <div class="searchbar">
+                <input id="search-input" type="text" placeholder="Hledat obchod nebo restauraci..." tabindex="0" autofocus>
+                <div onclick="document.getElementById('search-input').value=''">X</div>
+            </div>
             <div class="custom-keyboard">
                 <div class="keyboard"></div>
                 <div class="numpad"></div>
