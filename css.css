@@ -1,16 +1,9 @@
-@font-face {
-    src: url('../font/gotham-light.woff') format('woff');
-    font-family: 'Gotham';
-    font-weight: normal;
-    font-style: normal
-}
 * {
     -webkit-user-select: none;
     outline: none !important;
     font-family: sans-serif;
     -moz-user-select: none;
     -ms-user-select: none;
-    font-family: Gotham;
     letter-spacing: 2px;
     box-shadow: none
 }
